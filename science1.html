@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <header><div id="logo"><a href="index.html"><img src="images/logo_360.png"></a></header>
+    <main>
+      <p class="instructions">How To Play</p>
+      <div class="rules">Three terms will appear on the screen that pertain to science grades 3-5. You then should read and memorize the terms using all the time given. After, follow the prompts on the screen to continue playing. Remember this game just requires a "Touch of Thought".</div>
+      <a href="#"><div class="playnow">Play Now!</div></a>
+
+      <!-- Game Page -->
+      <div class="game">
+        <div id="timer"><span>15</span> Seconds
+        </div>
+        <div class="content">
+          <span id="solid">Wind Speed</span> = <span id="soliddef">How quickly the wind move</span><br>
+          
+          <span id="dashed">Wind Direction</span> = <span id="dasheddef">The Direction from which moving air is coming</span><br>
+
+          <span id="dotted">Temperature</span> = <span id="dotteddef">The measure of the warmth or coldness of an object</span></div>
+      </div>
+
+      <!-- Question Page -->
+      <div class="questions">
+        <div class="content">
+          What term had a <span id="prompt">solid</span> underline?<br>
+
+          A. <a id="def1" href="#"><span id="defso">The natural outer layer of tissue that covers the body of a person or animal</span></a>
+          <br>
+          B. <a id="def2" href="#"><span id="defda">Change from a solid to a liquid usually because of heat</span></a>
+          <br>
+          C. <a id="def3" href="#"><span id="defdo">An area of land that rises very high above the land around it and that is higher than a hill</span></a>
+        </div>
+      </div>
+
+      <!-- Correct Page -->
+      <div class="correct">
+        <div class="content">
+          <img id="checkmark" src="images/checkmark.png">
+          <h1>Correct!</h1>
+          <a href="#"><div class="nextquest">Next Question!</div></a>
+        </div>
+      </div>
+
+      <!-- Try Again Page -->
+      <div class="tryagain">
+        <div class="content">
+        <img id="retry" src="images/redx.png">
+        <h1>Sorry... Try Again?</h1>
+        <a href="science1.html"><div class="retry">Try Again?</div></a>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </div>
+</body>
+</html>
