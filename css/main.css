@@ -1,15 +1,53 @@
-#navBar {
+
+/*Work in progress below...*/
+
+/*Navbar*/
+/*#navBar {
 	width: 100%;
 	position: fixed;
 	margin-top: 0px;
 	background-color: #006666;
 	height: 10%;
 	text-align: center;
+	border-radius: 0px 0px 80px 80px;
+	margin-bottom: 15em;
 }
 
-#headerPic:hover {
+#logoNav {
+	display:inline-block;
+	margin: 0 auto;
+}*/
+
+/*#createNav {
+	color: #333;
+	height: 100%;
+	vertical-align: bottom;
+	display:inline-block;
+	text-align: left;
+	font-size: 40px;
+	margin-left: 0%;
+}
+
+#createNav:hover {
 	background-color: red;
 }
+
+#aboutNav {
+	height: 100%;
+	display:inline-block;
+	text-align: right;
+	font-size: 35px;
+	margin-top: 1%;
+}*/
+
+/*End Navbar*/
+
+
+
+
+
+
+
 
 .box {
 	width: 50em;
@@ -20,11 +58,6 @@
 	padding-bottom: 2%;
 	background-color: rgba(255,255,0,0.5); 
 	margin-bottom: 3%;
-}
-
-#headerPic {
-	display:inline-block;
-	margin: 0 auto;
 }
 
 #logo {
@@ -124,11 +157,14 @@
 	display: block;
 }
 
-p {
+/*p {
 	font-family: 'Cabin Sketch', cursive;
 	font-size: 2em;
 	padding-left: 15%;
 	padding-right: 15%;
+}*/
+p {
+	font-family: 'Cabin Sketch', cursive;
 }
 
 h1 {
@@ -205,6 +241,13 @@ a:visited {
 .soon {
 	margin-bottom: 1em;
 }
+
+
+
+
+
+
+
 
 
 /* Small devices (tablets, 768px and up) */
